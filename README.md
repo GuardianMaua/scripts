@@ -11,8 +11,6 @@ Repositório oficial da **Guardian Mauá** para armazenamento de **ferramentas d
 
 ## 🛠️ Ferramentas Recriadas  
 
-## 🛠️ Ferramentas Recriadas  
-
 | 🔢 Nome              | 🎯 Função                                      | 📝 Status          |
 |----------------------|----------------------------------------------|-------------------|
 | **G-SubEnum**       | Enumeração de subdomínios                    | 🏗️ Em planejamento |
