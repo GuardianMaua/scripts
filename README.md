@@ -11,17 +11,17 @@ Repositório oficial da **Guardian Mauá** para armazenamento de **ferramentas d
 
 ## 🛠️ Ferramentas Recriadas  
 
-| 🔢 Nome              | 🎯 Função                                      | 📝 Status          |
-|----------------------|----------------------------------------------|-------------------|
-| **G-SubEnum**       | Enumeração de subdomínios                    | 🏗️ Em planejamento |
-| **G-DirEnum**       | Enumeração de diretórios                     | 🏗️ Em planejamento |
-| **G-NetScan**       | Descoberta de hosts em uma rede              | 🏗️ Em planejamento |
-| **G-PortScan**      | Scanner de portas com identificação de banner | 🏗️ Em planejamento |
-| **G-Downloader**    | Download automatizado de arquivos            | 🏗️ Em planejamento |
-| **G-HashCrack**     | Quebra de hashes                             | 🏗️ Em planejamento |
-| **G-HashID**        | Identificação do tipo de hash                | 🏗️ Em planejamento |
-| **G-Keylogger**     | Captura e envio remoto de teclas digitadas   | 🏗️ Em planejamento |
-| **G-SSHBrute**      | Ataque de força bruta contra SSH             | 🏗️ Em planejamento |
+| 🔢 Nome              | 🎯 Função                                      | 📝 Status                     |
+|----------------------|----------------------------------------------|------------------------------|
+| **G-SubEnum**       | Enumeração de subdomínios                    | 🏗️ Em planejamento           |
+| **G-DirEnum**       | Enumeração de diretórios                     | 🏗️ Em planejamento           |
+| **G-NetScan**       | Descoberta de hosts em uma rede              | 🏗️ Em planejamento           |
+| **G-PortScan**      | Scanner de portas com identificação de banner | 🚧 Em desenvolvimento        |
+| **G-Downloader**    | Download automatizado de arquivos            | 🏗️ Em planejamento           |
+| **G-HashCrack**     | Quebra de hashes                             | 🏗️ Em planejamento           |
+| **G-HashID**        | Identificação do tipo de hash                | 🏗️ Em planejamento           |
+| **G-Keylogger**     | Captura e envio remoto de teclas digitadas   | 🏗️ Em planejamento           |
+| **G-SSHBrute**      | Ataque de força bruta contra SSH             | 🧪 Em testes                 |
 
 
 
