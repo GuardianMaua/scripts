@@ -1,3 +1,0 @@
-Portas abertas em 127.0.0.1:
-Porta 135 está ABERTA
-Porta 445 está ABERTA
