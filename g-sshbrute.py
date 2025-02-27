@@ -1,14 +1,14 @@
 import paramiko
-client = paramiko.SSHClient()
-client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+client = paramiko.SSHClient() #Inicia o cliente SSH
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) #Configura para não utilizar chave privada SSH
 
-hostname = "192.168.16.77" #Insira o hostname/URL
+hostname = "" #Insira o Hostname/IP
 
-username = "msfadmin" # Insira o username correto
+username = "" # Insira o username correto
 
-#wordlistUser = "rockyou.txt" #Coloque a wordlist para ser utilizada nos usuários
+#wordlistUser = "rockyou.txt" #Coloque o caminho da wordlist para ser utilizada nos usuários
 
-wordlistPass = "passwords.txt" #Coloque a wordlist para ser utilizada nos usuários
+wordlistPass = "" #Coloque o caminho da wordlist para ser utilizada nas senhas
 
 #Username Bruteforce
 
